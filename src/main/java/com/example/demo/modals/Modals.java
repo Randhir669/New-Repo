@@ -22,6 +22,11 @@ public class Modals {
 	public String toString() {
 		return "Modals [name=" + name + ", age=" + age + "]";
 	}
+	public Modals(String name, int age) {
+		super();
+		this.name = name;
+		this.age = age;
+	}
 	
 
 }
